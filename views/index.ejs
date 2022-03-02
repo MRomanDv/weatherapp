@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/styles.css">
+    <!--Googlefonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Bungee&family=Heebo:wght@300&family=Nanum+Gothic+Coding&family=Playfair+Display+SC&family=Righteous&family=Rubik&family=Staatliches&family=Teko:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
+    <title>Weather app</title>
+</head>
+<body>
+    
+    <!--NAV-->
+    <div class="nav">
+        <nav>
+            <ul>
+                <li><a href="/" data-text="Home">&nbsp;Home</a></li>
+                <li><a href="/login" data-text="Login">&nbsp;Login</a></li>
+                <li><a href="/signup" data-text="Signup">&nbsp;Signup</a></li>
+            </ul>
+    
+            <div class="time-zone-container">
+                <div class="time-zone" id="time-zone"></div>
+                <div class="long-lat" id="long-lat">12412124 12412412</div>
+         </div>
+        </nav>
+    </div>
+
+    <section class="content">
+        
+        <div class="content-box-container">
+            <div class="time-date-data">
+                <div class="hour-date">
+                    <div class="hour" id="hour">12:11 <span class="ampm">PM</span></div>
+                <div class="date" id="date"></div>
+                </div>
+                <div class="data-container" id="data-container-weather"></div>
+            </div>
+        </div>
+    </section>
+    
+    <!--SECTION2-->
+   
+    <div class="future-forecast">
+        <div class="today" id="current-temp">
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+            <div class="other">
+                <div class="day">Monday</div>
+                <div class="temp">Night - 25.6&#176; C</div>
+                <div class="temp">Day - 35.6&#176; C</div>
+            </div>
+        </div>
+
+        <div class="weather-forecast" id="weather-forecast"></div>
+    </div>
+   
+    <!--momentjs-CDN-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/public/js/index.js"></script>
+</body>
+</html>

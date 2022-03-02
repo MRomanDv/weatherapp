@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/signup.css"> 
+    <!--Googlefonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Bungee&family=Heebo:wght@300&family=Nanum+Gothic+Coding&family=Playfair+Display+SC&family=Righteous&family=Rubik&family=Staatliches&family=Teko:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
+    <title>Sign up</title>
+</head>
+<body>
+
+    <div class="background">
+        <div><h2>Sign up to weather app</h2></div>
+        <div class="content-area">
+            <div class="signup-container">
+                <form action="/signup" method="post">
+                    <div class="inputbox">
+                        <input type="text" name="name" id="name"
+                        placeholder="First name" required>
+                    </div>
+                    <div class="inputbox">
+                        <input type="text" name="lastname" id="lastname"
+                        placeholder="Last name" required>
+                    </div>
+                    <div class="inputbox">
+                        <input type="text" name="user" id="user"
+                        placeholder="username" required>
+                    </div>
+                    <div class="inputbox">
+                        <input type="email" name="email" id="email"
+                        placeholder="email" required>
+                    </div>
+                    <div class="inputbox">
+                        <input type="tel" name="tel" id="tel"
+                        placeholder="tel" required>
+                    </div>
+                    <div class="inputbox">
+                        <input type="password" name="pass" id="pass"
+                        placeholder="password" required>
+                    </div>
+                    <div class="inputbox">
+                        <input type="button" value="sign up">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
