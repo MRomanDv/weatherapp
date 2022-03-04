@@ -1,8 +1,8 @@
 const express = require('express');
 const routes = express.Router();
 
-routes.get('',(req,res)=>{
-    res.render('index')
+routes.get('/',(req,res)=>{
+    res.render('home')
 })
 
 routes.get('/login',(req,res)=>{

@@ -11,6 +11,7 @@ body {
     overflow:hidden;
 }
 
+/*NAV*/
 .nav {
     position: relative;
     width: 100vw;
@@ -73,6 +74,18 @@ ul li a:hover::before {
 .long-lat {
     font-size: 1rem;
 }
+
+/*LOGIN USER*/
+.login {
+    position: absolute;
+    top: 12%;
+    right: 6%;
+    width: fit-content;
+    font-size: 1.5rem;
+    color: rgb(219, 199, 199);
+}
+
+/*CONTENT*/
 .content {
     width: 100vw;
     height: fit-content;
@@ -244,6 +257,11 @@ ul li a:hover::before {
         flex-direction: column;
         font-size: 1.5rem;
     }
+    .login{
+        top: 10%;
+        right: 5%;
+        font-size: 1rem;
+    }
 
 }
 
@@ -292,9 +310,15 @@ ul li a:hover::before {
     .data-container {
         flex-direction: column;
     }
+    .login {
+        font-size: .8rem;
+    }
 }
 @media screen and (max-width:375px){
     .content {
         margin-top: 100px;
+    }
+    .login {
+        font-size: .5rem;
     }
 }

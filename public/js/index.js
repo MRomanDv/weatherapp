@@ -42,7 +42,7 @@ function getWeather(){
             })
         })
     }else {
-        alert('Please activate your bowser Location')
+        alert('Please activate your browser Location')
     }
 
 }

@@ -56,13 +56,13 @@
     opacity: 0.4;
 }
 
-.inputbox input[type="button"]{
+.inputbox input[type="submit"]{
     cursor: pointer;
     background: rgb(184, 51, 51);
     border-bottom: 0;
 }
 
-.inputbox input[type="button"]:hover {
+.inputbox input[type="submit"]:hover {
     background: rgb(218, 64, 64);
 }
 
